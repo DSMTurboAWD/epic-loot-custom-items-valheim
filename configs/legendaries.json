@@ -280,7 +280,7 @@
     },
     {
       "ID": "NulichCape",
-      "Name": "$mod_epicloot_l_nuluchcape",
+      "Name": "$mod_epicloot_l_nulichcape",
       "Description": "$mod_epicloot_l_nulichcape_desc",
       "Requirements" : {
         "AllowedItemTypes": [ "Shoulder" ]
