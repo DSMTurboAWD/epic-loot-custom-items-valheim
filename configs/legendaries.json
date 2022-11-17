@@ -283,13 +283,12 @@
       "Name": "$mod_epicloot_l_nuluchcape",
       "Description": "$mod_epicloot_l_nulichcape_desc",
       "Requirements" : {
-        "AllowedItemTypes": [ "TwoHandedWeapon" ],
-        "AllowedSkillTypes": [ "Unarmed" ]
+        "AllowedItemTypes": [ "Shoulder" ]
       },
       "GuaranteedMagicEffects": [
-        { "Type": "AddPiercingDamage", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
-        { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 20, "MaxValue" : 22, "Increment" : 1 } },
-        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 20, "MaxValue" : 22, "Increment" : 1 } },
+        { "Type": "ModifyArmor", "Values": { "MinValue": 2, "MaxValue": 6, "Increment": 1 } },
+        { "Type": "IncreaseStamina", "Values": { "MinValue": 50, "MaxValue": 60, "Increment": 1 } },        
+        { "Type": "ModifyStaminaRegenLowHealth", "Values": { "MinValue": 25, "MaxValue": 30, "Increment": 1 } }
         { "Type": "Indestructible" }
       ]
     },
