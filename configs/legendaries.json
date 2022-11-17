@@ -263,7 +263,7 @@
         { "Type": "Indestructible" }
       ]
     },
-  {
+    {
       "ID": "HarbFist",
       "Name": "$mod_epicloot_l_harbfist",
       "Description": "$mod_epicloot_l_harbfist_desc",
@@ -272,8 +272,23 @@
         "AllowedSkillTypes": [ "Unarmed" ]
       },
       "GuaranteedMagicEffects": [
-        { "Type": "QuickDraw", "Values": { "MinValue" : 25, "MaxValue" : 35, "Increment" : 1 } },
-        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 17, "MaxValue" : 20, "Increment" : 1 } },
+        { "Type": "AddPiercingDamage", "Values": { "MinValue" : 20, "MaxValue" : 25, "Increment" : 1 } },
+        { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 20, "MaxValue" : 22, "Increment" : 1 } },
+        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 20, "MaxValue" : 22, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "NulichCape",
+      "Name": "$mod_epicloot_l_nuluchcape",
+      "Description": "$mod_epicloot_l_nulichcape_desc",
+      "Requirements" : {
+        "AllowedItemTypes": [ "Shoulder" ]
+      },
+      "GuaranteedMagicEffects": [
+        { "Type": "ModifyArmor", "Values": { "MinValue": 2, "MaxValue": 6, "Increment": 1 } },
+        { "Type": "IncreaseStamina", "Values": { "MinValue": 50, "MaxValue": 60, "Increment": 1 } },        
+        { "Type": "ModifyStaminaRegenLowHealth", "Values": { "MinValue": 25, "MaxValue": 30, "Increment": 1 } }
         { "Type": "Indestructible" }
       ]
     },
