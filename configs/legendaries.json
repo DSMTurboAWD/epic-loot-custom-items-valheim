@@ -288,8 +288,23 @@
       "GuaranteedMagicEffects": [
         { "Type": "ModifyArmor", "Values": { "MinValue": 2, "MaxValue": 6, "Increment": 1 } },
         { "Type": "IncreaseStamina", "Values": { "MinValue": 50, "MaxValue": 60, "Increment": 1 } },        
-        { "Type": "ModifyStaminaRegenLowHealth", "Values": { "MinValue": 25, "MaxValue": 30, "Increment": 1 } }
+        { "Type": "ModifyStaminaRegenLowHealth", "Values": { "MinValue": 25, "MaxValue": 30, "Increment": 1 } },
         { "Type": "Indestructible" }
+      ]
+    },
+    {
+      "ID": "OrangeShield",
+      "Name": "$mod_epicloot_l_orangeshield",
+      "Description": "$mod_epicloot_l_orangeshield_desc", 
+      "Requirements": {
+        "AllowedItemTypes": [
+          "Shield"
+        ],
+        "ItemHasNoParryPower": false
+      },
+      "GuaranteedEffectCount": 6,
+      "GuaranteedMagicEffects": [
+        { "Type": "Immovable" }
       ]
     },
 
