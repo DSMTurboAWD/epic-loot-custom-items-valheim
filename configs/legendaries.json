@@ -279,9 +279,9 @@
       ]
     },
     {
-      "ID": "HarbFist",
-      "Name": "$mod_epicloot_l_harbfist",
-      "Description": "$mod_epicloot_l_harbfist_desc",
+      "ID": "NulichCape",
+      "Name": "$mod_epicloot_l_nuluchcape",
+      "Description": "$mod_epicloot_l_nulichcape_desc",
       "Requirements" : {
         "AllowedItemTypes": [ "TwoHandedWeapon" ],
         "AllowedSkillTypes": [ "Unarmed" ]
