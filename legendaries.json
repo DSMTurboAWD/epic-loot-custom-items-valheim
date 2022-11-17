@@ -263,6 +263,20 @@
         { "Type": "Indestructible" }
       ]
     },
+  {
+      "ID": "HarbFist",
+      "Name": "$mod_epicloot_l_harbfist",
+      "Description": "$mod_epicloot_l_harbfist_desc",
+      "Requirements" : {
+        "AllowedItemTypes": [ "TwoHandedWeapon" ],
+        "AllowedSkillTypes": [ "Unarmed" ]
+      },
+      "GuaranteedMagicEffects": [
+        { "Type": "QuickDraw", "Values": { "MinValue" : 25, "MaxValue" : 35, "Increment" : 1 } },
+        { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 17, "MaxValue" : 20, "Increment" : 1 } },
+        { "Type": "Indestructible" }
+      ]
+    },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Legendary Set Items
